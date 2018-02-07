@@ -1,0 +1,59 @@
+
+
+#contact{
+    padding: 15px;
+    /*background-color: aquamarine;*/
+    text-align: left;
+    border-radius: 8px;
+
+}
+
+.contact_fieldset{
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    background-color:lightgray;
+    border-radius: 5px;
+}
+
+.contact_input{
+    width:90%;
+    padding: 10px;
+    margin:10px;
+    border-radius: 3px; 
+    
+    
+}
+
+
+.contact_input:hover{
+    cursor: pointer;
+}
+
+.contact_input:active{
+    border:2px black;
+    border:2px white;
+    border:2px black;
+    border:2px white;
+    border:2px black;
+}
+
+.contact_submit{
+    width: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background: darkcyan;
+    color:black;
+    border:1px groove;
+}
+
+.contact_submit:hover{
+    width:65%;
+    background: darkblue;
+    color:white;
+    cursor: pointer;
+    -webkit-box-shadow:0 17px 50px 0 rgba(0,0,0,.19),0 12px 15px 0 rgba(0,0,0,.24);
+	        box-shadow:0 17px 50px 0 rgba(0,0,0,.19),0 12px 15px 0 rgba(0,0,0,.24);
+}
+    

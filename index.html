@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+                    <title>SinglePageApplicationAnimation</title>
+
+<!--  ____________________         Links 4 angularJs   _____________________________________________  -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>   
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+
+                            <!-- Routing Application -->
+                <script src="angularJs/apps/routeApp.js"></script>
+                            <!-- Routing Controller -->
+                <script src="angularJs/ctrls/controllers.js"></script>
+
+<!--  ______________________      Links 4 javaScript   _____________________________________________  -->
+
+                            <!-- Article Data Base -->
+
+                        <script src="js/articleDB.js"></script>
+
+<!--  ______________________     Links 4 Jquery        ____________________________________________  -->
+
+<!--  ______________________       Links 4 Css         ____________________________________________  -->
+
+                                <!-- Main Layout -->
+
+                <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+                                <!-- Menu Style -->
+
+                <link rel="stylesheet" type="text/css" href="css/menu_style.css">
+
+                            <!-- Routing Animations -->
+
+                <link rel="stylesheet" type="text/css" href="css/ngAnimation.css">
+
+                                <!-- Flex Slider -->
+
+                <link rel="stylesheet" type="text/css" href="css\flexSlider.css"/>
+
+                                <!-- Forms style -->
+
+                <link rel="stylesheet" type="text/css" href="css\forms.css"/>
+
+                                    <!-- Icons -->
+
+    <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
+
+</head>
+
+    <body ng-app="routeApp" ng-controller="animateCtrl" ng-class="animation">
+
+        <div id="content-main">                     <!-- content-main Start -->
+
+            <div id="navbar" class="gardient">      
+        
+                <a href="#/!" class="btn">High lights</a>
+                <a href="#!yellow" class="btn">world News</a>
+                <a href="#!red" class="btn">tour News</a>
+                <a href="#!green" class="btn">sport News</a>
+                <br/><br/>
+                <a href="#!lemon" class="btn2">About Us</a>
+                <a href="#!black" class="btn2">The Staff</a>
+                <a href="#!white" class="btn2">Contact Us</a>    
+
+            </div>
+
+            <div id="content_middle">               <!-- content_middle Start -->
+
+                <div ng-view class="view"></div>
+
+            </div>                                  <!-- content_middle End   -->
+    
+        </div>                                      <!-- content-main End -->
+
+ 
+
+</body> 
+</html>
